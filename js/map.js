@@ -2,7 +2,7 @@
 
   var map = L.map('mapdiv', {
     minZoom: 10,
-    maxZoom: 14
+    maxZoom: 18
   });
 
   // 迅速測図
