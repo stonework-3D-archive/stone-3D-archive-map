@@ -49,8 +49,8 @@
         return L.marker(latlng, {
         }).bindPopup(
           '<table>' +
-          '<tr><td>タイトル</td><td>feature.properties.タイトル + '</td></tr>' +
-          '<tr><td>サムネイル</td><td>' + feature.properties.サムネイル + '</td></tr>' +
+          '<tr><td>タイトル</td><td>' + feature.properties.タイトル + '</td></tr>' +
+          '<tr><td>サムネイル</td><td><img src="' + feature.properties.サムネイル + '"></td></tr>' +
           '</table>'
         );
       }
