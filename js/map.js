@@ -53,6 +53,7 @@
           '<tr><td>3Dモデル</td><td><a href="' + feature.properties.3Dモデル + '">3Dモデル</a></td></tr>' +
           '<tr><td>分類</td><td>' + feature.properties.分類 + '</td></tr>' +
           '<tr><td>所在地</td><td>' + feature.properties.所在地 + '</td></tr>' +
+          '<tr><td>撮影日</td><td>' + feature.properties.撮影日 + '</td></tr>' +
           '</table>'
         );
       }
