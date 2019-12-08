@@ -43,7 +43,7 @@
   });
 //  map.addLayer(markerclusters);
 
-  $.getJSON( 'stonework-3D-archive.geojson', function(data) {
+  $.getJSON( 'https://raw.githubusercontent.com/ShinodaKosuke/stonework-3D-archive/master/stonework-3D-archive.geojson', function(data) {
     var fudokiLayer = L.geoJson(data, {
       pointToLayer: function (feature, latlng) {
         return L.marker(latlng, {
