@@ -48,9 +48,10 @@
       pointToLayer: function (feature, latlng) {
         return L.marker(latlng, {
         }).bindPopup(
-          '<strong>' +
-          feature.properties.タイトル + ' ' +
-          '</strong>'
+          '<table>' +
+          '<tr><td>タイトル</td><td>feature.properties.タイトル + '</td></tr>' +
+          '<tr><td>サムネイル</td><td><img src="' + feature.properties.サムネイル + '"></td></tr>' +
+          '</table>'
         );
       }
     });
