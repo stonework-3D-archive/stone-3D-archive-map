@@ -48,7 +48,7 @@
       pointToLayer: function (feature, latlng) {
         return L.marker(latlng, {
         }).bindPopup(
-          '<table>' +
+          '<table border>' +
           '<tr><td>タイトル</td><td>' + feature.properties.タイトル + '</td></tr>' +
 //          '<tr><td>3Dモデル</td><td><a href="' + feature.properties.3Dモデル + '">3Dモデル</a></td></tr>' +
           '<tr><td>分類</td><td>' + feature.properties.分類 + '</td></tr>' +
