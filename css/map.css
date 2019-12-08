@@ -45,6 +45,8 @@ html, body {
   background: rgba(255, 255, 255, 0.8);
 }
 .leaflet-popup-content {
+  margin: 10px 15px;
+  font-size: 13px;
+  white-space: nowrap;
   width: auto !important;
-  margin: 11px;
 }
