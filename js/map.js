@@ -50,7 +50,7 @@
         }).bindPopup(
           '<table>' +
           '<tr><td>タイトル</td><td>' + feature.properties.タイトル + '</td></tr>' +
-          '<tr><td>サムネイル</td><td><img src="' + feature.properties.サムネイル + '"></td></tr>' +
+          '<tr><td>3Dモデル</td><td><a href="' + feature.properties.3Dモデル + '">3Dモデル</a></td></tr>' +
           '</table>'
         );
       }
