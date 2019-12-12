@@ -61,9 +61,12 @@
     markerclusters.addLayer(modelLayer);
     map.fitBounds(markerclusters.getBounds());
   });
-  map.addLayer(fudokiLayer );
-//    markerclusters.addLayer(fudokiLayer);
-    map.fitBounds(fudokiLayer.getBounds());
-//    map.fitBounds(markerclusters.getBounds());
-
-  });
+   L.easyButton('fa fa-info fa-lg',
+    function() {
+      $('#about').modal('show');
+    },
+    'このサイトについて',
+    null, {
+      position:  'bottomright'
+    }).addTo(map);
+});
