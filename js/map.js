@@ -67,4 +67,3 @@
 //    map.fitBounds(markerclusters.getBounds());
 
   });
-});
