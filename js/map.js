@@ -60,7 +60,7 @@
     });
     markerclusters.addLayer(modelLayer);
     map.fitBounds(markerclusters.getBounds());
-  });
+  );
    L.easyButton('fa fa-info fa-lg',
     function() {
       $('#about').modal('show');
