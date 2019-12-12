@@ -50,7 +50,7 @@
         }).bindPopup(
           '<table border>' +
           '<tr><td>タイトル</td><td>' + feature.properties.タイトル + '</td></tr>' +
-          '<tr><td>３Dモデル</td><td>' + feature.properties.３Dモデル + '</td></tr>' +
+          '<tr><td>３Dモデル</td><td>' + feature.properties.モデル + '</td></tr>' +
           '<tr><td>サムネイル</td><td>' + feature.properties.サムネイル + '</td></tr>' +
           '<tr><td>分類</td><td>' + feature.properties.分類 + '</td></tr>' +
           '<tr><td>所在地</td><td>' + feature.properties.所在地 + '</td></tr>' +
